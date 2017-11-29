@@ -1,2 +1,2 @@
 # Learn-Latex
-This project I will do a project on Latex
+ខ្ញុំនឹងធ្វើឧទាហរណ៍ខ្លះៗលើការសរសេរកម្មវិធី Latex សម្រាប់ជាជំនួយដល់ការងារនៃការសរសេរគណិតវិទ្យា ។
