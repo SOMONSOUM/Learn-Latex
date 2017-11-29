@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.11.29)  30 NOV 2017 02:15
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.11.29)  30 NOV 2017 02:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -115,6 +115,8 @@ LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
@@ -130,27 +132,14 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 9.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./example2.aux
-) ) 
+] (./example2.aux) ) 
 Here is how much of TeX's memory you used:
- 1199 strings out of 492995
- 13330 string characters out of 6136401
- 65968 words of memory out of 5000000
- 4788 multiletter control sequences out of 15000+600000
- 8939 words of font info for 34 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 27i,4n,26p,226b,145s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/te
-xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/201
-7/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2017/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2017/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmti12.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfont
-s/symbols/msbm10.pfb>
-Output written on example2.pdf (1 page, 55131 bytes).
-PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
- 25 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1203 strings out of 493005
+ 13459 string characters out of 6137955
+ 73499 words of memory out of 5000000
+ 5209 multiletter control sequences out of 15000+600000
+ 8309 words of font info for 35 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 27i,4n,26p,226b,146s stack positions out of 5000i,500n,10000p,200000b,80000s
 
+Output written on example2.pdf (1 page).

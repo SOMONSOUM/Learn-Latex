@@ -1,0 +1,211 @@
+\documentclass[a5paper,10pt,fleqn]{article}
+%
+\usepackage{geometry}
+\geometry{margin=1.5cm}
+%
+\usepackage{float}
+%
+\usepackage{polyglossia}
+\newfontfamily{\khmerfont}[%
+Script=Khmer,%
+Ligatures=TeX,%
+BoldFont={Khmer OS Bokor},%
+ItalicFont=*,%
+ItalicFeatures={FakeSlant=.15},%
+BoldItalicFont={Khmer OS Bokor},%
+BoldItalicFeatures={FakeSlant=.15},%
+SlantedFont=*,
+SlantedFeatures={FakeSlant=.10}]{Khmer OS Content}
+\setsansfont[%
+Script=Khmer,%
+Ligatures=TeX,%
+BoldFont=*,%
+ItalicFont=*,%
+BoldItalicFont=*,%
+BoldItalicFeatures={FakeSlant=.15},%
+SlantedFont=*]{Khmer OS Muol}
+\setmonofont[%
+Script=Khmer,%
+Ligatures=TeX,%
+BoldFont=*,%
+BoldFeatures={FakeBold=2},%
+ItalicFont=*,%
+ItalicFeatures={FakeSlant=.15},%
+BoldItalicFont=*,%
+BoldItalicFeatures={FakeBold=2,FakeSlant=.15},%
+SlantedFont=*,%
+SlantedFeatures={FakeSlant=.10}]{Khmer OS Freehand}
+\setmainlanguage[numerals=arabic]{khmer}
+\newfontfamily{\englishfont}{Times New Roman}
+\setotherlanguage{english}
+%
+\usepackage{amsmath}
+\allowdisplaybreaks
+\addtolength{\jot}{4pt}
+%
+\usepackage{amssymb}
+%
+\usepackage{amsthm}
+%
+\usepackage{mathtools}
+%
+\usepackage{tkz-tab}
+%
+\usepackage{tcolorbox}
+\tcbuselibrary{skins}
+\tcbuselibrary{breakable}
+\tcbset{frame/.style={%
+		enhanced,%
+		standard jigsaw,%
+		opacityback=0,%
+		breakable,%
+		boxrule=.5pt,%
+		titlerule=0pt,%
+		colback=white,%
+		colbacktitle=white,%
+		fonttitle=\color{black}\bfseries,%
+		left=1ex,%
+		right=1ex,%
+		bottomtitle=-.4ex,%
+		top=1ex,%
+		middle=.3ex,%
+		bottom=1ex,%
+		attach title to upper=\enspace,%
+}}
+%
+\raggedbottom
+%
+\newenvironment{exercise}{\begin{tcolorbox}[frame,title=លំហាត់]}{\end{tcolorbox}}
+%
+\begin{document}
+\begin{exercise}
+	គេឲ្យ $ C $ ជាក្រាបតាងអនុគមន៍ $ f(x)=(x-1)e^x $ កំណត់គ្រប់តម្លៃ $ x\in\mathbb{R} $~។
+	\begin{enumerate}
+		\item ចូរគណនាលីមីតនៃអនុគមន៍ $ f $ ត្រង់ $ -\infty $ និង $ +\infty $ និងទាញបញ្ញាក់ថា\\
+		$ L:\; y=0 $ ជាអាស៊ីមតូតដេកនៃក្រាប $ C $~។
+		\item សិក្សាសញ្ញាដេរីវេទី១ $ f'(x) $ និងរកបរមាធៀបនៃអនុគមន៍ $ f $~។
+		\item សរសេរសមីការបន្ទាត់ប៉ះ​ $ T $ ក្រាប $ C $ ត្រង់ចំណុចដែលមានអាប់ស៊ីស $ x=1 $~។
+		\item សិក្សាសញ្ញាដេរីវេទី២ $ f''(x) $ និងរកចំណុចរបត់នៃក្រាប $ C $~។
+		\item សង់តាងរាងអថេរភាពនៃអនុគមន៍ $ f $~។
+		\item សិក្សាទីតាំងក្រាប $ C $ ធៀបទៅនឹងអាស៊ីមតូតដេក $ L $~។
+		\item សង់ក្រាប $ C $ អាស៊ីមតូត $ L $ និងបន្ទាត់ប្រាប់ប៉ះ $ T $ ក្នុងតម្រុយតែមួយ។
+		\item[] គេឲ្យ $ e^{-2}=0.02,e^{-1}=0.14,e=2.71,e^2=7.39 $~។
+	\end{enumerate}
+\end{exercise}
+\begin{proof}[ចម្លើយ]
+	\begin{enumerate}
+		\item 
+		\begin{itemize}
+			\item ចូរគណនាលីមីតនៃអនុគមន៍ $ f $ ត្រង់ $ -\infty $ និង $ +\infty $
+			\begin{itemize}
+				\item $ \lim\limits_{x\to-\infty}f(x)=\lim\limits_{x\to-\infty}[(x-1)e^x]=\lim\limits_{u\to+\infty}\left(\dfrac{-u-1}{e^u}\right)=0 $ ដែល $ u=-x $
+				\item $ \lim\limits_{x\to+\infty}f(x)=\lim\limits_{x\to+\infty}(x-1)e^x=+\infty $
+			\end{itemize}
+			\item ទាញបញ្ញាក់ថា	$ L:\; y=0 $ ជាអាស៊ីមតូតដេកនៃក្រាប $ C $\\
+			ដោយ $ \lim\limits_{x\to-\infty}f(x)=0 $ ដូច្នេះ បន្ទាត់ $ y=0 $ ជាអាស៊ីមតូតដេកនៃក្រាប $ C $ ខាងមែក $ -\infty $~។
+		\end{itemize}
+		\item សិក្សាសញ្ញាដេរីវេទី១ $ f'(x) $ និងរកបរមាធៀបនៃអនុគមន៍ $ f $
+		\begin{align*}
+			f'(x)
+				&=[(x-1)e^x]'
+				=(1)e^x+(x-1)e^x
+				=xe^x
+		\end{align*}
+		ចំពោះគ្រប់ $ x\in\mathbb{R} $ គេបាន $ e^x>0 $ នោះ $ f'(x) $ មានសញ្ញាដូច $ x $~។
+		\begin{table}[H]
+			\centering
+			\begin{tikzpicture}
+				\tkzTabInit{$ x $/.5,$ f'(x) $/.5}{$ -\infty $,$ 0 $,$ +\infty $}
+				\tkzTabLine{,-,z,+,}
+			\end{tikzpicture}
+		\end{table}
+		តាមតារាងសញ្ញាដេរីវេទីមួយ $ f'(x) $ អនុគមន៍ $ f $ មានអប្បបរមាធៀបត្រង់\\
+		$ x=0 $ ដែលមានតម្លៃ $ f(0)=(0-1)e^0=-1 $~។
+		\item សរសេរសមីការបន្ទាត់ប៉ះក្រាប $ C $ ត្រង់ចំណុចដែលមានអាប់ស៊ីស $ x=1 $\\
+		សមីការបន្ទាត់ប៉ះត្រង់ $ x=x_0 $ អោយដោយរូបមន្ត
+		\begin{equation*}
+			y=f'(x_0)(x-x_0)+f(x_0)
+		\end{equation*}
+		ដោយ $ x_0=1,f(1)=0 $ និង $ f'(1)=e $ នោះយើងបាន
+		\begin{equation*}
+			T:\;y=ex-e
+		\end{equation*}
+		\item សិក្សាសញ្ញាដេរីវេទី២ $ f''(x) $ និងរកចំណុចរបត់នៃក្រាប $ C $
+		\begin{align*}
+			f''(x)
+				&=(xe^x)'
+				=(1)e^x+xe^x
+				=(x+1)e^x
+		\end{align*}
+		គ្រប់ $ x\in\mathbb{R} $ អនុគមន៍ $ e^x>0 $ នោះដេរីវេទី២ $ f''(x) $ មានសញ្ញាដូច $ x+1 $
+		\begin{table}[H]
+			\centering
+			\begin{tikzpicture}
+				\tkzTabInit{$ x $/.5,$ f''(x) $/.5}{$ -\infty $,$ -1 $,$ +\infty $}
+				\tkzTabLine{,-,z,+,}
+			\end{tikzpicture}
+		\end{table}
+		តាមតារាងសញ្ញាដេរីវេទី២ $ f''(x) $ ក្រាប $ C $ មានចំណុចរបត់ត្រង់ $ x=-1 $ ដែលត្រូវនឹងអរដោនេ $ f(-1)=(-1-1)e^{-1}=-2e^{-1} $~។
+		\item សង់តាងរាងអថេរភាពនៃអនុគមន៍ $ f $
+		\begin{table}[H]
+			\centering
+			\begin{tikzpicture}
+				\tkzTabInit{$ x $/.5,$ f'(x) $/.5,$ f(x) $/1}{$ -\infty $,$ 0 $,$ +\infty $}
+				\tkzTabLine{,-,z,+,}
+				\tkzTabVar{+/$ 0 $,-/$ -1 $,+/$ +\infty $}
+			\end{tikzpicture}
+		\end{table}
+		\item សិក្សាទីតាំងក្រាប $ C $ ធៀបទៅនឹងអាស៊ីមតូតដេក $ L $\\
+		ដោយអាស៊ីមតូតដេក $ L $ ជាអ័ក្សអាប់ស៊ីសនោះដើម្បីសិក្សាទីតាំងក្រាប $ C $ ធៀបទៅនឹងអាស៊ីមតូតដេក $ L $ យើងសិក្សាសញ្ញា $ f(x) $ តែម្ដង
+		\begin{itemize}
+			\item បើ $ x<1 $ នោះ $ f(x)=(x-1)e^x<0 $ ក្រាប $ C $ នៅក្រាប $ L $
+			\item បើ $ x=1 $ នោះ $ f(x)=(x-1)e^x=0 $ ក្រាប $ C $ កាត់ $ L $ ត្រង់ $ (1,0) $
+			\item បើ $ x>1 $ នោះ $ f(x)=(x-1)e^x>0 $ ក្រាប $ C $ នៅលើ $ L $
+		\end{itemize}
+		\item សង់ក្រាប $ C $ អាស៊ីមតូត $ L $ និងបន្ទាត់ប្រាប់ប៉ះ $ T $ ក្នុងតម្រុយតែមួយ\\
+		តារាងតម្លៃនៃ $ f(x)=(x-1)e^x $
+		\begin{table}[H]
+			\centering
+			\begin{tabular}{r|lllll}
+				$ x $ & $ -2 $ & $ -1 $ & $ 0 $ & $ 1 $ & $ 2 $\\
+				\hline
+				$ f(x) $ & $ -0.4 $ & $ -0.7 $ & $ -1 $ & $ 0 $ & $ 7.4 $
+			\end{tabular}
+		\end{table}
+		តារាងតម្លៃនៃ $ y=ex-e $
+		\begin{table}[H]
+			\centering
+			\begin{tabular}{r|ll}
+				$ x $ & $ 1 $ & $ 2 $\\
+				\hline
+				$ y $ & $ 0 $ & $ 2.7 $
+			\end{tabular}
+		\end{table}
+		ក្រាប
+		\begin{figure}[H]
+			\centering
+			\begin{tikzpicture}[x=.7cm,y=.7cm]
+				\coordinate(P)at(.2,.2);
+				\coordinate(X)at(1,0);
+				\coordinate(Y)at(0,1);
+				\coordinate(A)at(-2,-.4);
+				\coordinate(B)at(-1,-.7);
+				\coordinate(C)at(2,7.4);
+				\coordinate(D)at(2,2.7);
+				\draw[->](-6,0)--(4,0)node[right]{$ x $};
+				\draw[->](0,-3)--(0,8)node[above]{$ y $};
+				\foreach\x in{-5,-4,-3,-2,-1,1,2,3}
+					\draw[dashed](\x,-1.5pt)node[below]{\footnotesize $ \x $}--(\x,1.5pt);
+				\foreach\y in{-2,-1,1,2,...,7}
+					\draw[dashed](-1.5pt,\y)node[left]{\footnotesize $ \y $}--(1.5pt,\y);
+				\draw[domain=-6:2.04,samples=50,smooth]plot(\x,{(\x-1)*exp(\x)});
+				\draw(-.1,-3)--node[sloped,very near end,below]{$ y=ex-e $}(3.94,8);
+				\draw[dashed](A|-X)--(A)--(A-|Y);
+				\draw[dashed](B|-X)--(B)--(B-|Y);
+				\draw[dashed](C|-X)--(C)--(C-|Y);
+				\draw[dashed](D|-X)--(D)--(D-|Y);
+			\end{tikzpicture}
+		\end{figure}
+	\end{enumerate}
+\end{proof}
+\end{document}

@@ -1,0 +1,97 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=1.25cm]{geometry}
+\usepackage{mathpazo}% change math font
+\usepackage{enumitem}% change list environment like enumerate, itemize and description
+\usepackage{multicol}% multi columns
+\usepackage{tikz}% graphic drawing
+\usepackage[no-math]{fontspec}% font specfication
+\setmainfont{Khmer OS Content}% set default font to Khmer OS Content
+%
+\SetEnumitemKey{I}{%
+leftmargin=*,
+label={\protect\tikz[baseline=-0.9ex]\protect\node[draw=gray,thick,circle,minimum height=.65cm,inner sep=1pt,text=white,fill=magenta]{\Roman*};},%
+font=\small\sffamily\bfseries,%
+labelsep=1ex,%
+topsep=0pt}
+%
+\SetEnumitemKey{a}{%
+leftmargin=*,%
+label={\protect\tikz[baseline=-0.9ex]\protect\node[draw=gray,thick,circle,minimum height=.5cm,inner sep=1pt,text=white,fill=orange]{\alph*};},%
+font=\small\sffamily\bfseries,%
+labelsep=1ex,%
+topsep=0pt}
+%
+\SetEnumitemKey{1}{leftmargin=*,%
+label={\protect\tikz[baseline=-0.9ex]\protect\node[draw=gray,thick,circle,minimum height=.5cm,inner sep=1pt,text=white,fill=cyan]{\arabic*};},%
+font=\small\sffamily\bfseries,%
+labelsep=1ex,%
+topsep=0pt}
+%
+\def\hard{\leavevmode\makebox[0pt][r]{\large\ensuremath{\star}\hspace{2em}}}
+%
+\def\hhard{\leavevmode\makebox[0pt][r]{\large\ensuremath{\star\star}\hspace{2em}}}
+%
+\everymath{\protect\displaystyle\protect\color{blue}}
+%
+\pagecolor{cyan!7!white}
+%
+\begin{document}
+\begin{enumerate}[I]
+\item ($ 15 $ ពិន្ទុ) គេមានចំនួនកុំផ្លិច $ z=(\sqrt{6}+\sqrt{2})+i(\sqrt{6}-\sqrt{2}) $~។
+\begin{enumerate}[1]
+\item សរសេរ $ z^2 $ ជាទម្រង់ត្រីកោណមាត្ររួចទាញរកទម្រង់ត្រីកោណមាត្រនៃ $ z $~។
+\item រកចំនួនគត់ $ n $ វិជ្ជមានតូចបំផុតដែល $ z^n $ ជាចំនួនពិត។
+\end{enumerate}
+\item ($ 15 $ ពិន្ទុ) គណនាលីមីតខាងក្រោម៖
+\begin{multicols}{3}
+\begin{enumerate}[a]
+\item $ \lim\limits_{x\to 3}\frac{x^2-4x+3}{9-x^2} $
+\item $ \lim\limits_{x\to 2}\frac{x\sqrt{x}-2\sqrt{2}}{\sqrt{x}-\sqrt{2}} $
+\item $ \lim\limits_{x\to 0}\frac{e^{x^2}+\sin (x^2)-1}{2x\sin x} $
+\end{enumerate}
+\end{multicols}
+\item ($ 15 $ ពិន្ទុ) គេមានអនុគមន៍ $ f(x)=\frac{x^2+3x-7}{(x+2)(x-1)^2} $~។
+\begin{enumerate}[1]
+\item កំណត់ចំនួនពិត $ a,b,c $ ដែល $ f(x)=\frac{a}{x-1}+\frac{b}{(x-1)^2}+\frac{c}{x+2} $
+\item គណនាអាំងតេក្រាល $ \int f(x)\mathrm{d}x $~។
+\end{enumerate}
+\item ($ 15 $ ពិន្ទុ) នៅក្នុងកន្ត្រកមួយមានពងទា``កូន''ចំនួន $ 5 $ គ្រាប់ ពងទា``សាប''ចំនួន $ 7 $ គ្រាប់ និងពងទា``ខូច''ចំនួន $ 3 $ គ្រាប់។ ក្មេងម្នាក់ចាប់យកពងទា $ 5 $ គ្រាប់ ដោយចៃដន្យពីក្នុងកន្ត្រកនោះ។\\
+គណនាប្រូបាបនៃព្រឹត្តិការណ៍៖
+\begin{enumerate}[a]
+\item $ A: $ ``បានពងទាកូន $ 2 $ គ្រាប់ ពងទាសាប $ 2 $ គ្រាប់ និងពងទាខូច $ 1 $ គ្រាប់''
+\item $ B: $ ``បានពងទាកូន $ 4 $ គ្រាប់''
+\item $ C: $ ``បានពងទាខូចយ៉ាងតិច $ 1 $ គ្រាប់''
+\end{enumerate}
+\item\hhard ($ 35 $ ពិន្ទុ) 
+\begin{itemize}
+\item[ផ្នែក A.)] គេមានអនុគមន៍ $ g $ កំណត់លើ $ (0,+\infty) $ ដោយ $ g(x)=x^2+1-\ln x $~។
+\begin{enumerate}[a]
+\item គណនាដេរីវេ $ g'(x) $ នៃអនុគមន៍ $ g(x) $ រួចទាញរកអថេរភាពនៃ $ g $~។
+\item គូសតារាងអថេរភាពនៃ $ g $ ហើយទាញរកសញ្ញានៃ $ g $~។
+\end{enumerate}
+\item[ផ្នែក B.)] គេមាន $ f $ ជាអនុគមន៍កំណត់លើ $ (0,+\infty) $ ដោយ $ f(x)=1-x-\frac{\ln x}{x} $ ហើយមានក្រាប $ C $~។
+\begin{enumerate}[a]
+\item គណនា $ f'(x) $ ហើយទាញ $ f'(x) $ ជាអនុគមន៍នៃ $ g(x) $ ព្រមទាំងបញ្ជាក់សញ្ញា $ f'(x) $ លើ $ (0,+\infty) $~។
+\item គណនាលីមីត​នៃអនុគម៍ $ f $ ត្រង់ $ 0^+ $ និង $ +\infty $ រួចគូសតារាងអថេរភាពនៃ $ f $~។
+\item បង្ហាញថាបន្ទាត់ $ d:\;y=-x+1 $ ជាអាស៊ីមតូតទ្រេតនៃក្រាប $ C $ ខាងមែក $ +\infty $~។\\
+រួចសិក្សាទីតាំងរវាងក្រាប $ C $ និងបន្ទាត់ $ d $~។
+\item គូសខ្សែកោង $ C $ និងបន្ទាត់ $ d $ ក្នុងតម្រុយតែមួយ។
+\end{enumerate}
+\end{itemize}
+\item\hard ($ 30 $ ពិន្ទុ) 
+\begin{itemize}
+\item[ផ្នែក A.)] គេឲ្យសមីការទូទៅនៃអេលីប $ E:\;9x^2+25y^2=225 $~។
+\begin{enumerate}[a]
+\item រកប្រវែងអ័ក្សធំ ប្រវែងអ័ក្សតូច និងកូអរដោនេកំពូលទាំងពីរ។
+\item សង់អេលីប​ $ E $~។
+\end{enumerate}
+\item[ផ្នែក B.)] ក្នុងលំហរប្រដាប់ដោយតម្រុយអតូណរម៉ាល់មានទិសដៅវិជ្ជមាន $ (O,\vec{i},\vec{j},\vec{k}) $ គេមានចំណុច​\\
+$ A(1,0,1),B(2,1,2),C(2,3,1) $ និង $ D(1,2,3) $~។
+\begin{enumerate}[a]
+\item សរសេរវ៉ិចទ័រ $ \overrightarrow{AB},\overrightarrow{AC},\overrightarrow{AD} $ រួចគណនា $ \overrightarrow{AB}\times\overrightarrow{AC} $ និង $ (\overrightarrow{AB}\times\overrightarrow{AC})\cdot\overrightarrow{AD} $
+\item សរសេរសមីការទូទៅនៃប្លង់ $ ABC $ ហើយបង្ហាញថា $ D $ មិនមែនជាចំណុចនៃប្លង់ $ ABC $
+\item សរសេរសមីការឆ្លុះនៃបន្ទាត់ $ L $ កាត់តាម $ D $ ហើយកែងនឹងប្លង់ $ ABC $~។
+\end{enumerate}
+\end{itemize}
+\end{enumerate}
+\end{document}
