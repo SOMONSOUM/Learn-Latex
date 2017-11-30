@@ -1,0 +1,41 @@
+\documentclass[12pt,a4paper]{article}
+\def\theenumi{\Roman{enumi}}
+\def\theenumii{\Alph{enumii}}
+\def\theenumiii{\arabic{enumiii}}
+\def\theenumiv{\alph{enumiv}}
+\begin{document}
+	Here is an example of ‘‘itemize’’ environment
+	\begin{itemize}
+		\item First Itemize
+		\item Second Itemize
+		\item Third Itemize
+		\item Fourth Itemize
+	\end{itemize}
+	Here is an example of ‘‘description’’ environment
+	\begin{description}
+		\item[Clue] First Item
+		\item[Word] Second Item
+		\item[Important] Third Item 
+	\end{description}
+	
+	\begin{enumerate}
+		\item First item
+		\begin{enumerate}
+			\item First item
+			\begin{enumerate}
+				\item First item
+				\begin{enumerate}
+					\item First Item
+					\item Second item
+				\end{enumerate}
+				\item Second item
+			\begin{enumerate}
+				\item Second item
+			\end{enumerate}
+			\item Second item
+			\end{enumerate}
+		\item Second item
+		\end{enumerate}
+	\item Second item
+	\end{enumerate}
+\end{document}

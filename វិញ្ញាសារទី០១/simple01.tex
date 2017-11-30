@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper]{article}
+\documentclass[12pt,a4paper]{article}
 \usepackage[margin=1.25cm]{geometry}
 \usepackage{mathpazo}% change math font
 \usepackage{enumitem}% change list environment like enumerate, itemize and description
@@ -9,20 +9,20 @@
 %
 \SetEnumitemKey{I}{%
 leftmargin=*,
-label={\protect\tikz[baseline=-0.9ex]\protect\node[draw=gray,thick,circle,minimum height=.65cm,inner sep=1pt,text=white,fill=magenta]{\Roman*};},%
+label={\protect\tikz[baseline=-0.9ex]\protect\node[draw=gray,thick,circle,minimum height=.65cm,inner sep=1pt,text=black,fill=white]{\Roman*};},%
 font=\small\sffamily\bfseries,%
 labelsep=1ex,%
 topsep=0pt}
 %
 \SetEnumitemKey{a}{%
 leftmargin=*,%
-label={\protect\tikz[baseline=-0.9ex]\protect\node[draw=gray,thick,circle,minimum height=.5cm,inner sep=1pt,text=white,fill=orange]{\alph*};},%
+label={\protect\tikz[baseline=-0.9ex]\protect\node[draw=gray,thick,circle,minimum height=.5cm,inner sep=1pt,text=black,fill=white]{\alph*};},%
 font=\small\sffamily\bfseries,%
 labelsep=1ex,%
 topsep=0pt}
 %
 \SetEnumitemKey{1}{leftmargin=*,%
-label={\protect\tikz[baseline=-0.9ex]\protect\node[draw=gray,thick,circle,minimum height=.5cm,inner sep=1pt,text=white,fill=cyan]{\arabic*};},%
+label={\protect\tikz[baseline=-0.9ex]\protect\node[draw=gray,thick,circle,minimum height=.5cm,inner sep=1pt,text=black,fill=white]{\arabic*};},%
 font=\small\sffamily\bfseries,%
 labelsep=1ex,%
 topsep=0pt}
@@ -32,8 +32,8 @@ topsep=0pt}
 \def\hhard{\leavevmode\makebox[0pt][r]{\large\ensuremath{\star\star}\hspace{2em}}}
 %
 \everymath{\protect\displaystyle\protect\color{blue}}
-%
-\pagecolor{cyan!7!white}
+% ដាក់ពណ៍របស់ Page
+\pagecolor{cyan!2!white}
 %
 \begin{document}
 \begin{enumerate}[I]

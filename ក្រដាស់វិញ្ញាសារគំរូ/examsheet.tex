@@ -1,5 +1,6 @@
-\documentclass[a5paper,10pt]{article}
+\documentclass[a4paper,12pt]{article}
 \makeatletter
+\usepackage{multicol}% multi columns
 \def\@school{}
 \def\@subject{}
 \def\@teacher{}
@@ -38,23 +39,55 @@
 \setlist[enumerate,3]{itemsep=\p@,label=\protect\color{magenta}\bfseries\alph*.)}
 \newenvironment{problem}{\begin{enumerate}}{\end{enumerate}}
 \def\pro{\@ifnextchar[{\@opro}{\@pro}}
-\def\@opro[#1]{\item{\color{blue}\bfseries[~#1~\label@point~]}}
+\def\@opro[#1]{\item{\color{blue}\bfseries(~#1~\label@point~)}}
 \def\@pro{\item}
+\everymath{\protect\displaystyle\protect\color{blue}}
+% ដាក់ពណ៍របស់ Page
+\pagecolor{cyan!2!white}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{tikz}
 \makeatother
 \begin{document}
+	\begin{multicols}{2}
+		ការប្រឡងតេស្ត
+		រយៈពេល
+	\end{multicols}
 	\begin{problem}
 		\pro[២៤] គេមានចំនួនកុំផ្លិច $ z_{1}=-3+3\sqrt{3}i $ និង $ z_{2}=2-2\sqrt{3}i $ ។​
-		\begin{problem}
-			\pro សរសេរ $ z_{1} $ និង $ z_{2} $​ ជាទម្រង់ត្រីកោណមាត្រ ។
-			\pro គណនា $ z_{1} +z_{2} $ និង $ z_{1}-z_{2} $ ។
-			\pro គណនា $ z_{1}\times z_{2} $ និង $ \dfrac{z_{1}}{z_{2}} $ ។
-		    \pro សរសេរ​ $ z_{1}\times z_{2} $ និង $ \dfrac{z_{1}}{z_{2}} $ ជាទម្រង់ត្រីកោណមាត្រ ។
-		\end{problem}
+			\begin{multicols}{2}
+				\begin{problem}
+					\pro សរសេរ $ z_{1} $ និង $ z_{2} $​ ជាទម្រង់ត្រីកោណមាត្រ ។
+					\pro គណនា $ z_{1} +z_{2} $ និង $ z_{1}-z_{2} $ ។
+					\pro គណនា $ z_{1}\times z_{2} $ និង $ \dfrac{z_{1}}{z_{2}} $ ។
+				    \pro សរសេរ​ $ z_{1}\times z_{2} $ និង $ \dfrac{z_{1}}{z_{2}} $ ជាទម្រង់ត្រីកោណមាត្រ ។
+				\end{problem}
+			\end{multicols}
 		\pro[២០] គេមានចំនួនកុំផ្លិច $ z_{1}=2-1+\sqrt{3}i $ និង $ z_{2}=1+\cos\dfrac{\pi}{4}-i\sin\dfrac{\pi}{4} $
 		\par ចូរសរសេរ $ z_{1} $ និង $ z_{2} $ ជាទម្រង់ត្រីកោណមាត្រ។
 		\pro[៣៦] គណនាលីមីតនៃអនុគមន៍ខាងក្រោម៖
+			\begin{multicols}{3}
+				\begin{problem}
+					\pro $ \lim\limits_{x\to 0}\dfrac{\sin20x}{\sin4x} $
+					\pro $ \lim\limits_{x\to 0}\dfrac{\tan3x}{\sin10x} $
+					\pro $ \lim\limits_{x\to 0}\dfrac{-4x}{\sin2x} $
+					\pro $ \lim\limits_{x\to 0}\dfrac{\tan60x}{-2\sin3x} $
+					\pro $ \lim\limits_{x\to 0}\dfrac{1-\cos2017x}{x} $
+					\pro $ \lim\limits_{x\to 0}\dfrac{1-\cos^2 4x}{x^2} $
+					\pro $ \lim\limits_{x\to 0}\dfrac{\sin(\sin(\sin x))}{x} $
+					\pro $ \lim\limits_{x\to 0}\dfrac{\cos^2 x -1}{\sin2x} $
+					\pro $ \lim\limits_{x\to 0}\dfrac{\sin^2 3x}{1-\cos3x} $
+				\end{problem}
+			\end{multicols}
+		\pro[១៥]គណនាលីមីតនៃអនុគមន៍ខាងក្រោម៖
+			\begin{multicols}{2}
+				\begin{problem}
+					\pro $ \lim\limits_{x\to 0}\dfrac{\sin2x+\tan3x+\sin4x}{\tan5x+\sin6x+\sin7x} $
+					\pro $ \lim\limits_{x\to 0}\dfrac{\sin x\cdot\sin2x\cdot\sin3x\cdots\sin20x}{x^{20}} $
+					\pro $ \lim\limits_{x\to 0}\dfrac{\sin x +2\sin2x +3\sin3x + \cdots + 20\sin20x}{x} $
+					\pro $ \lim\limits_{x\to 0}\dfrac{9x^2-\sin^2 3x}{3x^2-x\sin3x} $
+					\pro $ \lim\limits_{x\to 0}\dfrac{x^2+x\sin x}{2x^2+\sin^2 3x} $
+				\end{problem}
+			\end{multicols}
 	\end{problem}
 \end{document}
