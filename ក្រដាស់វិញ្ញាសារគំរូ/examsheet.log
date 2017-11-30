@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.11.29)  30 NOV 2017 03:38
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.11.29)  30 NOV 2017 10:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -927,6 +927,16 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 47.
 ABD: EveryShipout initializing macros
+LaTeX Font Info:    Try loading font information for U+msa on input line 49.
+
+(c:/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 49.
+
+(c:/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 16.29881pt.
@@ -937,12 +947,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 ] (./examsheet.aux) ) 
 Here is how much of TeX's memory you used:
- 22085 strings out of 493005
- 462479 string characters out of 6137955
- 516241 words of memory out of 5000000
- 25790 multiletter control sequences out of 15000+600000
- 3688 words of font info for 20 fonts, out of 8000000 for 9000
+ 22118 strings out of 493005
+ 463090 string characters out of 6137955
+ 517237 words of memory out of 5000000
+ 25806 multiletter control sequences out of 15000+600000
+ 5403 words of font info for 30 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 55i,11n,58p,10466b,300s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,11n,58p,10466b,296s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on examsheet.pdf (1 page).
