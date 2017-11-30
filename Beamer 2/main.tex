@@ -11,8 +11,17 @@
 \usepackage{ucharclasses}
 \setTransitionsForLatin{\begingroup\englishfont}{\endgroup}
 \title{\LaTeXe\ ភាសាខ្មែរ}
-\author[តិចណូ]{ការប្រើប្រាស់ \LaTeX{} ជាភាសាខ្មែរ}
-\institute{វិទ្យាស្ថានបច្ចេកវិទ្យាកម្ពុជា}
+\subtitle[\LaTeX]{ការសរសេរឯកសារភាសាខ្មែរជាមួយកម្មវិធី \LaTeX}
+\author[ស៊ុំ សំអុន]{ការប្រើប្រាស់ \LaTeX{} ជាភាសាខ្មែរ}
+\institute{វិទ្យាស្ថានបច្ចេកវិទ្យាកម្ពុជា​}
+\usepackage{eso-pic}
+\beamertemplatenavigationsymbolsempty
+\setbeamertemplate{footline}[frame number]
+\newcommand\AtPagemyUpperLeft[1]{\AtPageLowerLeft{%
+		\put(\LenToUnit{0.9\paperwidth},\LenToUnit{0.9\paperheight}){#1}}}
+\AddToShipoutPictureFG{
+	\AtPagemyUpperLeft{{\includegraphics[width=1cm,keepaspectratio]{logo.png}}}
+}%
 \begin{document}
 	\begin{frame}{សូមស្វាគមន៍!}
 		\titlepage
