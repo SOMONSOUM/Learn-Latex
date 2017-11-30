@@ -1,0 +1,34 @@
+\frametitle{\S2 Conjectures on correspondence and lifting}
+
+    \hfil\begin{tikzpicture}[THRM,
+    node distance = 18mm and 11mm
+                    ]
+%---
+\node[blur=1] {\tikz\node[thrm]
+    {\nodepart[text=white]{one}  Theorem 3 (obtained in \S1)
+     \nodepart{two} A relation of dimensions between $S_{k,j}^{\text{new}}(U(N))$ and $S_{k,j}^{\text{new}}(U'(N))$};
+     };
+\node[blur=2,below=of n1] {\tikz\node[thrm]
+    {\nodepart[text=white]{one}  Theorem 3' (new version of Theorem 3)
+     \nodepart{two} A relation of dimensions between $S_{k,j}^{\text{new}}(U(N))$ and $S_{k,j}^{\text{new}}(U'(N))$};
+     };
+\node[blur=3,below=of n2] {\tikz\node[thrm,
+                                      rectangle split part fill= {red!70!black,red!30!gray!10}]
+    {\nodepart[text=white]{one} Conjectures
+     \nodepart{two} \hfil   "Correspondence and Lifting"};
+     };
+\coordinate[right=of n1.south west] (A);
+\path[draw,line width=1mm,shorten >=1mm,shorten <=2mm,-latex]
+    (A) edge node[cmnt=4,right=11mm]
+                  { \begin{itemize}\tightlist
+                    \item Definition of paramodular newforms
+                    \item Conjectural dimension formula of $S_{k,j}^{\text{new}}(U'(N))$
+                    \end{itemize}
+                    }
+    (A |- n2.north)
+    (A |- n2.south)
+       edge node[right=11mm]
+              {(The RHS suggest how we should define $S_{k,j}^{\text{new}}(U'(N))$.)}
+    (A |- n3.north)
+    (n4) -- (n4 -| A);
+    \end{tikzpicture}

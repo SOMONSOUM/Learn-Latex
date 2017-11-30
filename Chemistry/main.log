@@ -1,0 +1,248 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.11.29)  1 DEC 2017 01:58
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./main.tex
+(./main.tex
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
+(c:/texlive/2017/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(c:/texlive/2017/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(c:/texlive/2017/texmf-dist/tex/latex/xymtex/chemist/chemist.sty
+Package `chemist' (ver5.01) <June 6, 2013> [SF]
+chemist.sty ver5.01 (for LaTeX2e) 2013/06/06[SF]
+\c@compd=\count87
+\c@deriv=\count88
+\reactarrowsep=\dimen103
+\verbatimleftmargin=\dimen104
+\verbatimbaselineskip=\dimen105
+\hsgr@d=\dimen106
+\vsgr@d=\dimen107
+\vwgr@d=\dimen108
+\hwgr@d=\dimen109
+\vsepgr@d=\dimen110
+\hsepgr@d=\dimen111
+\nrep=\count89
+\nrepmax=\count90
+\ybaselineshift=\dimen112
+\tbaselineshift=\dimen113
+\@savetbaselineshift=\dimen114
+LaTeX Info: Redefining \rm on input line 788.
+LaTeX Info: Redefining \mathversion on input line 892.
+\c@mv@chem=\count91
+LaTeX Font Info:    Encoding `OML' has changed to `OT1' for symbol font
+(Font)              `letters' in the math version `chem' on input line 965.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `chem'
+(Font)                  OML/cmm/m/it --> OT1/cmr/m/n on input line 965.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `chem'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/m/n on input line 965.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `chem'
+(Font)                  OMS/cmsy/m/n --> OMS/cmsy/m/n on input line 965.
+\c@mv@boldchem=\count92
+LaTeX Font Info:    Overwriting symbol font `operators' in version `boldchem'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 965.
+LaTeX Font Info:    Encoding `OML' has changed to `OT1' for symbol font
+(Font)              `letters' in the math version `boldchem' on input line 965.
+
+LaTeX Font Info:    Overwriting symbol font `letters' in version `boldchem'
+(Font)                  OML/cmm/m/it --> OT1/cmr/b/n on input line 965.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `boldchem'
+(Font)                  OMS/cmsy/m/n --> OMS/cmsy/b/n on input line 965.
+\TestCount=\count93
+(c:/texlive/2017/texmf-dist/tex/latex/xymtex/chemist/assurechemist.sty
+Part of XyMTeX for Drawing Chemical Structural Formulas. Version 5.00
+ -- Released October 01, 2010 by Shinsaku Fujita
+XyMTeX Macro File `assurechemist' (ver5.00) <October 01, 2010> [SF]
+)) (./main.aux
+! Undefined control sequence.
+l.2 \pgfsyspdfmark
+                   {pgfid2}{10339160}{43087008}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \pgfsyspdfmark {p
+                     gfid2}{10339160}{43087008}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+l.3 \pgfsyspdfmark
+                   {pgfid3}{13485346}{43531196}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.4 \pgfsyspdfmark
+                   {pgfid4}{15967530}{43066981}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.5 \pgfsyspdfmark
+                   {pgfid5}{18160259}{43066981}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.6 \pgfsyspdfmark
+                   {pgfid1}{9782558}{43087008}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.7 \pgfsyspdfmark
+                   {pgfid7}{10992247}{41514144}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.8 \pgfsyspdfmark
+                   {pgfid8}{12201935}{41514144}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.9 \pgfsyspdfmark
+                   {pgfid9}{16671590}{41514144}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.10 \pgfsyspdfmark
+                    {pgfid10}{18692743}{41514144}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.11 \pgfsyspdfmark
+                    {pgfid11}{23169223}{41514144}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.12 \pgfsyspdfmark
+                    {pgfid12}{23015851}{41337199}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.13 \pgfsyspdfmark
+                    {pgfid13}{26853810}{41514144}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.14 \pgfsyspdfmark
+                    {pgfid6}{9782558}{41514144}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+
+Overfull \hbox (87.77905pt too wide) in paragraph at lines 2--4
+\OT1/cmr/m/n/10 fid81220193541514144 pg-fid91667159041514144 pg-fid101869274341
+514144 pg-fid112316922341514144
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 5.
+[1
+
+{c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./main.aux) ) 
+Here is how much of TeX's memory you used:
+ 668 strings out of 492995
+ 7933 string characters out of 6136401
+ 72420 words of memory out of 5000000
+ 4299 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 23i,11n,21p,158b,268s stack positions out of 5000i,500n,10000p,200000b,80000s
+<
+c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive
+/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2017/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2017/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on main.pdf (1 page, 37689 bytes).
+PDF statistics:
+ 24 PDF objects out of 1000 (max. 8388607)
+ 16 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

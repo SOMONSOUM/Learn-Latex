@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.11.29)  30 NOV 2017 02:36
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2017.11.29)  1 DEC 2017 02:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
 (c:/texlive/2017/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
-(c:/texlive/2017/texmf-dist/tex/latex/base/bk10.clo
-File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(c:/texlive/2017/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -1086,27 +1086,27 @@ LaTeX Font Info:    ... okay on input line 68.
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
 * driver: xetex
-* paper: <default>
+* paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
-* h-part:(L,W,R)=(0.0pt, 614.295pt, 0.0pt)
-* v-part:(T,H,B)=(0.0pt, 794.96999pt, 0.0pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=614.295pt
-* \textheight=794.96999pt
+* h-part:(L,W,R)=(0.0pt, 597.50787pt, 0.0pt)
+* v-part:(T,H,B)=(0.0pt, 845.04684pt, 0.0pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=597.50787pt
+* \textheight=845.04684pt
 * \oddsidemargin=-72.26999pt
 * \evensidemargin=-72.26999pt
-* \topmargin=-102.33748pt
+* \topmargin=-104.14378pt
 * \headheight=12.0pt
-* \headsep=18.06749pt
-* \topskip=10.0pt
-* \footskip=25.29494pt
-* \marginparwidth=125.0pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=88.0pt
 * \marginparsep=7.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1180,15 +1180,17 @@ File: coffee.JPG Graphic file (type QTm)
 LaTeX Font Info:    Font shape `TU/Bokor(0)/bx/n' will be
 (Font)              scaled to size 34.19989pt on input line 85.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 85.
+(Font)              <12> on input line 85.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 85.
+(Font)              <8> on input line 85.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 85.
 LaTeX Font Info:    Font shape `TU/Bokor(0)/m/n' will be
 (Font)              scaled to size 26.59991pt on input line 90.
 LaTeX Font Info:    Font shape `TU/Bokor(0)/m/n' will be
 (Font)              scaled to size 23.63593pt on input line 92.
 
-Overfull \hbox (1.59999pt too wide) in paragraph at lines 94--101
+Overfull \hbox (1.6pt too wide) in paragraph at lines 94--101
 [][]
  []
 
@@ -1197,12 +1199,12 @@ Overfull \hbox (1.59999pt too wide) in paragraph at lines 94--101
 
 ] [2] (./cover.aux) ) 
 Here is how much of TeX's memory you used:
- 23360 strings out of 493005
- 527079 string characters out of 6137955
- 618892 words of memory out of 5000000
- 27031 multiletter control sequences out of 15000+600000
- 3824 words of font info for 37 fonts, out of 8000000 for 9000
+ 23376 strings out of 493005
+ 527183 string characters out of 6137955
+ 620587 words of memory out of 5000000
+ 27040 multiletter control sequences out of 15000+600000
+ 6560 words of font info for 46 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 55i,6n,69p,10387b,920s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,6n,69p,10387b,944s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on cover.pdf (2 pages).

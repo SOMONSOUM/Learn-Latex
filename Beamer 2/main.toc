@@ -1,0 +1,7 @@
+\select@language {khmer}
+\beamer@sectionintoc {1}{សេចក្តីចាប់ផ្ដើម}{3}{0}{1}
+\beamer@sectionintoc {2}{ការដំឡើងកម្មវិធី \LaTeX {}}{4}{0}{2}
+\beamer@subsectionintoc {2}{1}{ចំពោះម៉ាស៊ីនប្រតិបត្តការណ៍ Windows}{5}{0}{2}
+\beamer@subsectionintoc {2}{2}{ចំពោះម៉ាស៊ីនប្រតិបត្តការណ៍ Mac}{6}{0}{2}
+\beamer@subsectionintoc {2}{3}{ចំពោះម៉ាស៊ីនប្រតិបត្តការណ៍ Unix}{7}{0}{2}
+\beamer@sectionintoc {3}{ឯកសារយោង}{8}{0}{3}

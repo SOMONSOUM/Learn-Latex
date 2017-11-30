@@ -1,0 +1,108 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{polyglossia}
+\newfontfamily{\khmerfont}[%
+Script=Khmer,%
+Ligatures=TeX,%
+BoldFont=*,%
+ItalicFont=*,%
+BoldItalicFont=*%
+]{Khmer OS}
+\setsansfont[%
+Script=Khmer,%
+Ligatures=TeX,%
+BoldFont=*,%
+ItalicFont=*,%
+BoldItalicFont=*%
+]{Khmer OS Bokor}
+\setmonofont[%
+Script=Khmer,%
+Ligatures=TeX,%
+BoldFont=*,%
+ItalicFont=*,%
+BoldItalicFont=*%
+]{Khmer OS Freehand}
+\newfontfamily{\bbfamily}[%
+Script=Khmer,%
+Ligatures=TeX,%
+BoldFont=*,%
+ItalicFont=*,%
+BoldItalicFont=*%
+]{Khmer OS Battambang}
+\newfontfamily{\ctfamily}[%
+Script=Khmer,%
+Ligatures=TeX,%
+BoldFont=*,%
+ItalicFont=*,%
+BoldItalicFont=*%
+]{Khmer OS Content}
+\newfontfamily{\fhfamily}[%
+Script=Khmer,%
+Ligatures=TeX,%
+BoldFont=*,%
+ItalicFont=*,%
+BoldItalicFont=*%
+]{Khmer OS Fasthand}
+\newfontfamily{\mcfamily}[%
+Script=Khmer,%
+Ligatures=TeX,%
+BoldFont=*,%
+ItalicFont=*,%
+BoldItalicFont=*%
+]{Khmer OS Metal Chrieng}
+\newfontfamily{\mlfamily}[%
+Script=Khmer,%
+Ligatures=TeX,%
+BoldFont=*,%
+ItalicFont=*,%
+BoldItalicFont=*%
+]{Khmer OS Muol}
+\newfontfamily{\mpfamily}[%
+Script=Khmer,%
+Ligatures=TeX,%
+BoldFont=*,%
+ItalicFont=*,%
+BoldItalicFont=*%
+]{Khmer OS Muol Pali}
+\newfontfamily{\srfamily}[%
+Script=Khmer,%
+Ligatures=TeX,%
+BoldFont=*,%
+ItalicFont=*,%
+BoldItalicFont=*%
+]{Khmer OS Siemreap}
+\newcommand{\textbb}[1]{\begingroup\bbfamily#1\endgroup}
+\newcommand{\textct}[1]{\begingroup\ctfamily#1\endgroup}
+\newcommand{\textfh}[1]{\begingroup\fhfamily#1\endgroup}
+\newcommand{\textmc}[1]{\begingroup\mcfamily#1\endgroup}
+\newcommand{\textml}[1]{\begingroup\mlfamily#1\endgroup}
+\newcommand{\textmp}[1]{\begingroup\mpfamily#1\endgroup}
+\newcommand{\textsr}[1]{\begingroup\srfamily#1\endgroup}
+\newfontfamily{\englishfont}{Times New Roman}
+\setmainlanguage[numerals=khmer]{khmer}
+\setotherlanguage{english}
+\let\texten\textenglish
+\renewcommand{\arraystretch}{1.7}
+\usepackage{tabulary}
+\begin{document}
+	\begin{table}[h]
+		\centering
+		\begin{tabulary}{\textwidth}{|L|L|}
+			\hline
+			ឈ្មោះពុម្ភអក្សរ & អត្ថបទគំរូ\\
+			\hline
+			\texten{Khmer OS} & តើមានអ្វីប្លែក?\\
+			\texten{Khmer OS Bokor} & \textsf{តើមានអ្វីប្លែក?}\\
+			\texten{Khmer OS Freehand} & \texttt{តើមានអ្វីប្លែក?}\\
+			\hline
+			\texten{Khmer OS Battambang} & \textbb{តើមានអ្វីប្លែក?}\\
+			\texten{Khmer OS Content} & \textct{តើមានអ្វីប្លែក?}\\
+			\texten{Khmer OS Fasthand} & \textfh{តើមានអ្វីប្លែក?}\\
+			\texten{Khmer OS Metal Chrieng} & \textmc{តើមានអ្វីប្លែក?}\\
+			\texten{Khmer OS Muol} & \textml{តើមានអ្វីប្លែក?}\\
+			\texten{Khmer OS Muol Pali} & \textmp{តើមានអ្វីប្លែក?}\\
+			\texten{Khmer OS Siemreap} & \textsr{តើមានអ្វីប្លែក?}\\
+			\hline
+		\end{tabulary}
+		\caption{ការប្រើប្រាស់ពុម្ភអក្សរផ្សេងៗ}
+	\end{table}
+\end{document}

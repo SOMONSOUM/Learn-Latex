@@ -1,0 +1,10 @@
+\select@language {khmer}
+\beamer@sectionintoc {1}{ទំព័រពត៌មាន}{1}{0}{1}
+\beamer@sectionintoc {2}{មាតិកា}{2}{0}{2}
+\beamer@sectionintoc {3}{បញ្ជី}{3}{0}{3}
+\beamer@subsectionintoc {3}{1}{លេខរៀង}{3}{0}{3}
+\beamer@subsectionintoc {3}{2}{ចំណុច}{4}{0}{3}
+\beamer@sectionintoc {4}{ប្រអប់}{5}{0}{4}
+\beamer@subsectionintoc {4}{1}{ប្រអប់មានស្រាប់}{5}{0}{4}
+\beamer@subsectionintoc {4}{2}{ប្រអប់មាន ឬគ្មានចំណងជើង}{6}{0}{4}
+\beamer@sectionintoc {5}{ចែកជាជួរ}{7}{0}{5}

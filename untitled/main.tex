@@ -1,0 +1,110 @@
+%% ----------------------------------------------------------------------
+%% Esta es una plantilla para la clase de documento exam, en español
+%% ----------------------------------------------------------------------
+%% 2017 por Fausto M. Lagos S. <piratax007@protonmail.ch>
+%% 
+%% Este trabajo puede ser distribuido o modificado bajo los
+%% términos y condiciones de la LaTeX Project Public License (LPPL) v1.3C, 
+%% o cualquier versión posterior. La última versión de esta licencia
+%% puede verse en:
+%% http://www.latex-project.org/lppl.txt
+%% 
+%% Usted es libre de usarlo, modificarlo o distribuirlo siempre que se
+%% respeten los términos de la licencia y se reconozca al autor original
+%% ----------------------------------------------------------------------
+
+%Preámbulo
+\documentclass[12pt, legalpaper]{exam}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage[margin=.75in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{tikz}
+
+% Configuración del Encabezado
+\newcommand{\class}{Tema}
+\newcommand{\term}{Periodo, Semestre o Curso}
+\newcommand{\examnum}{Número del Parcial}
+\newcommand{\examdate}{Fecha:}
+\newcommand{\timelimit}{Tiempo disponible}
+\pagestyle{head}
+\firstpageheader{Institución}{}{Departamento}
+\runningheader{\class}{\examnum\ - Page \thepage\ of \numpages}{\examdate}
+\runningheadrule
+
+% Configuración de la tabla de calificación
+\pointpoints{punto}{puntos}
+\hpword{Puntos:}
+\vpword{Puntos}
+\vtword{Total:}
+\htword{Total}
+\vsword{Resultado}
+\hsword{Resultado:}
+\vqword{Problema}
+\hqword{Pregunta:}
+
+\begin{document}
+% Definición del Encabezado
+\noindent
+\begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r @{\extracolsep{6pt}} l}
+\textbf{\class} & \textbf{Nombre:} & \makebox[2.5in]{\hrulefill}\\
+\textbf{\term} &&\\
+\textbf{\examnum} & \textbf{Curso:} & \makebox[2.5in]{\hrulefill}\\
+\textbf{\examdate} &&\\
+\textbf{Tiempo: \timelimit} & Profesor: & \makebox[2.5in]{\emph{Dr. John Doe}}
+\end{tabular*}\\
+\rule[2ex]{\textwidth}{2pt}
+
+% Bloque de instrucciones
+\noindent
+Este examen contiene \numquestions \;planteamientos que corresponde a \numpoints \;puntos de la valoración final. Tenga presente que no esta autorizada la comunicación con sus compañeros, ni el uso de ayudas computacionales (calculadora, celular, etc) y que resolver el pliego a l\'apiz implica renunciar a cualquier reclamación después de entregados los resultados.
+
+% Tabla de calificaciones
+\begin{center}
+Tabla de calificación de uso exclusivo para el profesor. \\
+\addpoints
+% Puede presentar la tabla de calificación en orientación vertical [v] u horizontal [h]
+\gradetable[h][questions]
+\end{center}
+
+% Preguntas de ejemplo.
+\begin{questions}
+\addpoints
+\question[25]  En la funci\'on dada se garantiza que hay tres puntos de inflexi\'on ubicados en las raices o ceros y el $y_i$. Determine: Dominio, Rango, Tipo de funci\'on (inyectiva, sobreyectiva o biyectiva), paridad e intervalos en los que es creciente o decreciente y construya una aproximaci\'on gr\'afica del lugar geom\'etrico de la funci\'on.
+\[
+	f(x) = x^4 - 4x^2 + 4
+\]
+\emph{Sugerencia:} Para determinar las raices o ceros resuelva la ecuaci\'on $x^4 - 4x^2 + 4 = 0$
+
+\emph{Observaci\'on:} La determinaci\'on de la paridad (en particular) debe estar apoyada en el procedimiento algebraico que la sustenta. Dado que conoce con exactitud los puntos de inflexi\'on, los intervalos en que la curva es creciente o decreciente deben darse exactamente definidos.
+\addpoints
+
+\addpoints
+\question[25] Resuelva anal\'iticamente
+	\[
+		\lim _{x \to 1} \frac{x^3 - 1}{x^2 - 1}
+	\]
+
+\addpoints
+\question[25] Determine, si los hay, los n\'umeros en los que la funci\'on dada es discontinua.
+	\[
+		f(x) = (x^2 - 9x + 18)^{-1}
+	\]
+
+\addpoints
+\question[25] Encuentre $D_xy$
+\[
+	y = \frac{(x + 1)^2}{3x - 4}
+\]
+
+\end{questions}
+
+\noindent
+\rule[2ex]{\textwidth}{2pt}
+\begin{center}
+	\textbf{Soluci\'on}
+\end{center}
+
+\end{document}

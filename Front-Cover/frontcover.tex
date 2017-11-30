@@ -1,0 +1,51 @@
+\documentclass[a4paper,12pt]{book}
+% Define new command
+\def\printbooktitle{}
+\def\printauthorname{}
+\def\printinstitutename{}
+\def\printbookedition{}
+\def\printpublishyear{}
+\def\booktitle#1{\def\printbooktitle{#1}}
+\def\authorname#1{\def\printauthorname{#1}}
+\def\institutename#1{\def\printinstitutename{#1}}
+\def\bookedition#1{\def\printbookedition{#1}}
+\def\publishyear#1{\def\printpublishyear{#1}}
+% Load packages
+\usepackage{tikz}
+\usetikzlibrary{patterns}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{anyfontsize}
+% Choose page color
+\pagecolor{red!78!black}
+% Book information
+\booktitle{Your Book Title}
+\authorname{Your Name}
+\institutename{Name of Your School or Institute}
+\bookedition{First Edition}
+\publishyear{2016}
+% Cover design
+\begin{document}
+\begin{tikzpicture}[remember picture, overlay]
+% Title background
+\fill[left color=blue!45!black,right color=blue!89!black,fill opacity=0.89](current page.north west)rectangle([xshift=4cm]current page.south west);
+% Institute background
+\fill[left color=red!45!black,right color=red!89!black,,fill opacity=0.89](current page.north west)rectangle([yshift=-4cm]current page.north east);
+% Vertical line
+\fill[fill=cyan]([xshift=4cm]current page.north west)rectangle([xshift=4.2cm]current page.south west);
+% Horizontal line
+\fill[fill=cyan]([yshift=-4cm]current page.north west)rectangle([yshift=-4.2cm]current page.north east);
+% Stylish pattern
+\pattern[pattern color=gray,pattern=bricks]([xshift=4.2cm,yshift=-4.2cm]current page.north west)rectangle(current page.south east);
+% Book title
+\node[right,text=white](title) at ([xshift=4.5cm,yshift=-3cm]current page.north west) {\fontsize{45}{\baselineskip}\selectfont\sffamily\bfseries\printbooktitle};
+% Author name
+\node[right,text=cyan](author) at ([xshift=4.5cm,yshift=-5.5cm]current page.north west) {\fontsize{45}{\baselineskip}\selectfont\sffamily\bfseries\printauthorname};
+% Book edition
+\node[right,text=white](edition) at ([xshift=4.5cm,yshift=-7.5cm]current page.north west) {\fontsize{27}{\baselineskip}\selectfont\scshape\printbookedition};
+% Published year
+\node[right,text=white](year) at ([xshift=4.5cm,yshift=-9cm]current page.north west) {\fontsize{27}{\baselineskip}\selectfont\bfseries\printpublishyear};
+% Institute name
+\node[left,text=white](institute) at ([xshift=3cm,yshift=-4.5cm]current page.north west) [rotate=90]{\fontsize{45}{\baselineskip}\selectfont\sffamily\bfseries\printinstitutename};
+\end{tikzpicture}
+\end{document}

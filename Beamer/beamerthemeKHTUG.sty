@@ -1,0 +1,26 @@
+\ProvidesPackage{beamerthemeKHTUG}
+\mode<presentation>
+
+\newif\ifbeamer@secheader
+\beamer@secheaderfalse
+
+\DeclareOptionBeamer{secheader}{\beamer@secheadertrue}
+\ProcessOptionsBeamer
+
+\usecolortheme{whale}
+\usecolortheme{orchid}
+\usecolortheme[named=magenta]{structure}
+\useinnertheme{rounded}
+\useoutertheme{infolines}
+\setbeamersize{text margin left=3ex}
+\setbeamersize{text margin right=3ex}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{theorems}[numbered]
+\usefonttheme{structurebold}
+\setbeamercolor{alerted text}{fg=magenta}
+\setbeamercovered{transparent}
+\addtolength\leftmargini{-1ex}
+
+\ifbeamer@secheader\relax\else\setbeamertemplate{headline}[default]\fi
+
+\mode<all>

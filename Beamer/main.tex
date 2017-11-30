@@ -1,0 +1,106 @@
+\documentclass{beamer}
+%
+\usetheme[secheader]{KHTUG}
+%
+\hypersetup{pdfpagemode=FullScreen}
+\usepackage{polyglossia}
+\newfontfamily{\khmerfont}[%
+ItalicFont=*,%
+ItalicFeatures={FakeSlant=.12},%
+BoldFont=*,%
+BoldFeatures={FakeBold=2}]{Khmer.ttf}
+\setdefaultlanguage[numerals=khmer]{khmer}
+\setsansfont{Khmer.ttf}
+\setmonofont{Khmer.ttf}
+%
+\author[KHTUG]{Khmer \TeX{} Users Group}
+\title[beamer]{បង្កើតឯកសារធ្វើបទបង្ហាញ}
+%\institute[Short]{Name of the Institute}
+\date[21/10/2016]{21~October~2016}
+\logo{\includegraphics[width=1cm]{logo.png}}
+%
+\begin{document}
+%
+\section{ទំព័រពត៌មាន}
+\begin{frame}{ស្វាគមន៏}
+	\titlepage
+\end{frame}
+%
+\section{មាតិកា}
+\begin{frame}{\insertsection}
+	\tableofcontents
+\end{frame}
+%
+\section{បញ្ជី}
+\subsection{លេខរៀង}
+\begin{frame}{\insertsubsection}
+បញ្ជីលេខរៀង
+\begin{enumerate}
+	\item ចំណុចមួយ
+	\item ចំណុចពីរ
+\end{enumerate}
+%
+បញ្ជីអក្សររៀង
+\begin{enumerate}[a]
+	\item ចំណុចមួយ
+	\item ចំណុចពីរ
+\end{enumerate}
+\end{frame}
+\subsection{ចំណុច}
+\begin{frame}{\insertsubsection}
+បញ្ជីចំណុច
+\begin{itemize}
+	\item ចំណុចមួយ
+	\item ចំណុចពីរ
+\end{itemize}
+%
+បញ្ជីពិពណ៌នា
+\begin{description}
+	\item[ពាក្យទី១] ចំណុចមួយ
+	\item[ពាក្យទី២] ចំណុចពីរ
+\end{description}
+\end{frame}
+%
+\section{ប្រអប់}
+\subsection{ប្រអប់មានស្រាប់}
+\begin{frame}{\insertsubsection}
+	\begin{definition}[ឈ្មោះ]
+		សរសេរខ្លឹមសារទីនេះ
+	\end{definition}
+%
+	\begin{example}[ឈ្មោះ]
+		សរសេរខ្លឹមសារទីនេះ
+	\end{example}
+\end{frame}
+%
+\subsection{ប្រអប់មាន ឬគ្មានចំណងជើង}
+\begin{frame}{\insertsubsection}
+	\begin{block}{ចំណងជើង}
+		សរសេរខ្លឹមសារទីនេះ
+	\end{block}
+%
+	\begin{block}{}
+		សរសេរខ្លឹមសារទីនេះ
+	\end{block}
+\end{frame}
+%
+\section{ចែកជាជួរ}
+\begin{frame}{\insertsection}
+\begin{columns}
+%
+	\begin{column}{0.47\textwidth}
+		\begin{theorem}
+			សរសេរខ្លឹមសារទីនេះ
+		\end{theorem}
+	\end{column}
+%
+	\begin{column}{0.47\textwidth}
+		\begin{proof}
+			សរសេរខ្លឹមសារទីនេះ
+            ឋបខឍបឍឃបឍ
+	\end{proof}
+	\end{column}
+\end{columns}
+\end{frame}
+%
+\end{document}
