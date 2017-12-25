@@ -1,0 +1,29 @@
+\documentclass{beamer}
+
+\author{Me}
+\title{The title}
+\institute{My institute}
+
+\usepackage{eso-pic}
+\beamertemplatenavigationsymbolsempty
+\setbeamertemplate{footline}[frame number]
+
+\newcommand\AtPagemyUpperLeft[1]{\AtPageLowerLeft{%
+		\put(\LenToUnit{0.9\paperwidth},\LenToUnit{0.9\paperheight}){#1}}}
+\AddToShipoutPictureFG{
+	\AtPagemyUpperLeft{{\includegraphics[width=.5cm,keepaspectratio]{logo.png}}}
+}%
+
+\begin{document}
+	\begin{frame}
+	\titlepage
+\end{frame}
+
+\begin{frame}{Test 1}
+test
+\end{frame}
+
+\begin{frame}{Test 2}
+test
+\end{frame}
+\end{document}

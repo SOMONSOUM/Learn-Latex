@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{What\IeC {\textquoteright }s in a Modeling Language?}{9}{0}{2}
+\beamer@sectionintoc {3}{Models and Diagrams}{12}{0}{3}
+\beamer@sectionintoc {4}{Views of Your Model}{13}{0}{4}
+\beamer@sectionintoc {5}{Dispelling Misconceptions about UML}{14}{0}{5}

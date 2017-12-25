@@ -2,6 +2,7 @@
 \hypersetup{pdfpagemode=FullScreen}
 \usetheme{Madrid}%You can choose any theme you like the most
 \usepackage{polyglossia}%You can translate from English to any language
+\usepackage{multicol}
 \newfontfamily\khmerfont[Script=Khmer]{Khmer OS Content}
 \newfontfamily\englishfont{Latin Modern Roman}
 \setdefaultlanguage[numerals=khmer]{khmer}
@@ -10,18 +11,12 @@
 \XeTeXlinebreaklocale "KHM"
 \usepackage{ucharclasses}
 \setTransitionsForLatin{\begingroup\englishfont}{\endgroup}
-\title{\LaTeXe\ ភាសាខ្មែរ}
+%\title{\LaTeXe\ ភាសាខ្មែរ}
+\title{លីមីត}
 \subtitle[\LaTeX]{ការសរសេរឯកសារភាសាខ្មែរជាមួយកម្មវិធី \LaTeX}
 \author[ស៊ុំ សំអុន]{ការប្រើប្រាស់ \LaTeX{} ជាភាសាខ្មែរ}
 \institute{វិទ្យាស្ថានបច្ចេកវិទ្យាកម្ពុជា​}
-\usepackage{eso-pic}
-\beamertemplatenavigationsymbolsempty
-\setbeamertemplate{footline}[frame number]
-\newcommand\AtPagemyUpperLeft[1]{\AtPageLowerLeft{%
-		\put(\LenToUnit{0.9\paperwidth},\LenToUnit{0.9\paperheight}){#1}}}
-\AddToShipoutPictureFG{
-	\AtPagemyUpperLeft{{\includegraphics[width=1cm,keepaspectratio]{logo.png}}}
-}%
+
 \begin{document}
 	\begin{frame}{សូមស្វាគមន៍!}
 		\titlepage
@@ -30,13 +25,28 @@
 		\tableofcontents
 	\end{frame}
 	\section{សេចក្តីចាប់ផ្ដើម}
-	\begin{frame}{ការណែនាំឲ្យស្គាល់អំពី \LaTeX{}}
-		\begin{block}{តើអ្វីទៅជាកម្មវិធី \LaTeX{}?}
-		សរសេរខ្លឹមសារទីនេះ
+	\begin{frame}{លីមីតនៃអនុគមន៍ត្រីកោណមាត្រ}
+		\begin{block}{គណនាលីមីតនៃអនុគមន៍ខាងក្រោម៖}
+		\begin{multicols}{2}
+			\begin{enumerate}[a)]
+				%\item $ \lim\limits_{x\to 0} \dfrac{\sin10x}{\sin5x} $
+				\item $ \lim\limits_{x\to 0} \dfrac{\sin4x}{\sin2x} $
+				\item $ \lim\limits_{x\to 0} \dfrac{x\sin5x}{\sin^2 4x} $
+				\item $ \lim\limits_{x\to 0} \dfrac{\sqrt{7}-\sqrt{7\cos5x}}{1-\cos4x} $
+				\item $ \lim\limits_{x\to 0} \dfrac{\sqrt{\sin2x}-\sqrt{\sin2x \cos4x}}{2x} $
+				\item $ \lim\limits_{x\to 0} \dfrac{1-\cos3x}{1-\cos2x} $
+				\item $ \lim\limits_{x\to 0} \dfrac{1-\cos^2 4x}{x\sin4x} $
+			\end{enumerate}
+		\end{multicols}
 		\end{block}
 	%
-		\begin{block}{}
-		សរសេរខ្លឹមសារទីនេះ
+		\begin{block}{រូបមន្តគោលដែលត្រូវប្រើ}
+			\begin{itemize}
+				\item $ \lim\limits_{u\to 0} \dfrac{\sin u}{u}=1$ ឬ $  \lim\limits_{u\to 0} \dfrac{\sin^n u}{u^n}=1 $ ដែល $ n\geq1 $
+				\item $ 1-\cos^2 ax=\sin^2 ax $
+				\item $ 1-\cos ax=2\sin^2 \dfrac{a}{2}x $
+				\item $ \left(a-b\right)^2 = a^2 -2ab +b^2$
+			\end{itemize}
 		\end{block}
 \end{frame}
 %

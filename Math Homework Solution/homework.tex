@@ -1,0 +1,71 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage{fullpage,amsfonts,mathpazo}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\usepackage{multicol}
+\usepackage{polyglossia}%
+\geometry{top=.4in,bottom=.4in,left=.1in,right=.1in}
+\newfontfamily\khmerfont[Script=Khmer]{Khmer OS Content}
+\newfontfamily\englishfont{Latin Modern Roman}
+\setdefaultlanguage[numerals=khmer]{khmer}
+\setsansfont[Script=Khmer]{Khmer OS Content}
+\setmonofont[Script=Khmer]{Khmer OS Content}
+\XeTeXlinebreaklocale "KHM"
+\usepackage{ucharclasses}
+\setTransitionsForLatin{\begingroup\englishfont}{\endgroup}
+\usepackage{xcolor}
+%\pagecolor{cyan!1!white}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+
+\everymath{\protect\displaystyle\protect\color{magenta}}
+
+\pagestyle{empty}
+
+\begin{document}
+\section*{\color{blue}មេរៀនទី:០១​ \centering ចំនួនកុំផ្លិច }
+\begin{description}
+	\item[\underline{ប្រធានលំហាត់}]
+\end{description}
+	\begin{enumerate}
+		\item ($ 15 $ ពិន្ទុ) គេមានចំនួនកុំផ្លិច $ z_{1}=-3+3\sqrt{3}i $ និង $ z_{2}=2-2\sqrt{3}i $~ ។​
+		\begin{multicols}{2}
+			\begin{enumerate}
+				\item សរសេរ $ z_{1} $ និង $ z_{2} $​~ ជាទម្រង់ត្រីកោណមាត្រ ។ 
+				\item គណនា $ z_{1} +z_{2} $ និង $ z_{1}-z_{2} $ ។ 
+				\item គណនា $ z_{1}\times z_{2} $ និង $ \dfrac{z_{1}}{z_{2}} $ ។
+				\item សរសេរ​ $ z_{1}\times z_{2} $ និង $ \dfrac{z_{1}}{z_{2}} $ ជាទម្រង់ត្រីកោណមាត្រ ។
+				\end{enumerate}
+		\end{multicols}
+	\item​ ($ 10 $ ពិន្ទុ) គេមានចំនួនកុំផ្លិច $ z_{1}=1-2i $ ; $ z_{2}=1+2i $ និង​ $ z_{3}=-3+i $ ។
+		\begin{enumerate}
+			\item គណនាតម្លៃនៃ​ $ A=z_{1}+ z_{2}+z_{3}+i$ និង $ B=z_{1}\cdot z_{2}+2 z_{3}-2i $
+			\item គណនា​ $ z_{3}^2 $\quad ;\quad  $ z_{1}\cdot z_{3} $ \quad និង​ $ \dfrac{z_{1}}{z_{3}} $ ជាទម្រង់ពីជគណិត ។
+		\end{enumerate}
+	\item ( $ 10 $ ពិន្ទុ ) គេឲ្យចំនួនកុំផ្លិចពីរគឺ $ z=2-3i $ និង $ w=-3+4i $ ។
+		\begin{enumerate}
+			\begin{multicols}{2}
+			\item គណនាតម្លៃលេខនៃ​ $ M=z\cdot \overline{z}+w\cdot \overline{w}$ ។
+			\item បង្ហាញថា​  $ \overline{\left(\dfrac{w}{z}\right)}=\dfrac{\overline{w}}{\overline{z}} $ និង $ \overline{\left(z\times \overline{w}\right)}=\overline{z}\times w $
+		\end{multicols}
+		\end{enumerate}
+	\item ($30$ ពិន្ទុ) គណនាលីមីតនៃអនុគន៍ខាងក្រោមៈ
+	\begin{enumerate}
+		\item $ \lim\limits_{x\to 0}\dfrac{\sin(\sin(\sin x))}{x}$ $=$
+		$ \lim\limits_{x\to 0} \dfrac{\sin(\sin(\sin x))}{\sin(\sin x)}\times \dfrac{\sin(\sin x)}{\sin x}  \times \dfrac{\sin x}{x}$ $ = $ $ 1\times1\times1=1 $ ប្រើរូបមន្ត $ \lim\limits_{u\to 0} \dfrac{\sin u}{u} =1 $
+		\item $ \lim\limits_{x\to 0} \dfrac{\sin x+2\sin2x+3\sin3x+\cdots+20\sin20x}{x} $\\
+		$ \lim\limits_{x\to 0}\left( \dfrac{\sin x}{x}+\dfrac{2\sin2x}{x}+\dfrac{3\sin3x}{x}+\cdots+\dfrac{20\sin20x}{x}\right)  $ \\
+		$ \lim\limits_{x\to 0}\left( \dfrac{\sin x}{x}+\dfrac{2\times2\sin2x}{2x}+\dfrac{3\times3\sin3x}{3x}+\cdots+\dfrac{20\times20\sin20x}{20x}\right)  $ \\
+		ដោយប្រើរូបមន្ត $ s_{n}=\dfrac{n(n+1)(2n+1)}{6} $\\
+		$=1^2+2^2+3^2+\cdots+20^2 =\dfrac{20(20+1)(2\cdot20+1)}{6}$ $= $ ធ្វើខ្លួនឯង
+		\item $ \lim\limits_{x\to 0} \dfrac{\sin x+\sin2x+\sin3x+\cdots+\sin20x}{x} $\\
+		$ \lim\limits_{x\to 0}\left( \dfrac{\sin x}{x}+\dfrac{\sin2x}{x}+\dfrac{\sin3x}{x}+\cdots+\dfrac{\sin20x}{x}\right)  $ \\
+			$ \lim\limits_{x\to 0}\left( \dfrac{\sin x}{x}+\dfrac{2\sin2x}{2x}+\dfrac{3\sin3x}{3x}+\cdots+\dfrac{20\sin20x}{20x}\right)  $ \\
+				ដោយប្រើរូបមន្ត $ s_{n}=\dfrac{n(n+1)}{2} $\\
+				$=1+2+3+\cdots+20 =\dfrac{20(20+1)}{2}$ $= $ ធ្វើខ្លួនឯង
+	\end{enumerate}
+	\end{enumerate}
+
+\end{document}

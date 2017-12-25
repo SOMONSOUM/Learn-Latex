@@ -1,0 +1,11 @@
+\contentsline {chapter}{អារម្ភកថា}{iii}{chapter*.2}
+\contentsline {chapter}{អំណរគុណ}{v}{chapter*.3}
+\contentsline {chapter}{\numberline {1}ចំនួនកុំផ្លិច}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}ចំនួនកុំផ្លិចទម្រង់ពីជគណិត}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}ប្រមាណវិធីបូកលើចំនួនកុំផ្លិច}{1}{subsection.1.1.1}
+\contentsline {chapter}{\numberline {2}ចំណងជើងជំពូក}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}ចំណងជើងផ្នែក}{3}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}ចំណងជើងផ្នែករង}{3}{subsection.2.1.1}
+\contentsline {chapter}{\numberline {A}ចំណងជើងជំពូក}{5}{appendix.A}
+\contentsline {section}{\numberline {A.1}ចំណងជើងផ្នែក}{5}{section.A.1}
+\contentsline {subsection}{\numberline {A.1.1}ចំណងជើងផ្នែករង}{5}{subsection.A.1.1}

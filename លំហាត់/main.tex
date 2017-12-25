@@ -1,0 +1,53 @@
+\documentclass[a4paper,12pt]{article}
+\makeatletter
+\usepackage{multicol}% multi columns
+\def\@school{}
+\def\@subject{}
+\def\@teacher{}
+\def\school#1{\def\@school{#1}}
+\def\subject#1{\def\@subject{#1}}
+\def\teacher#1{\def\@teacher{#1}}
+\def\label@school{ប្រឡង}
+\def\label@subject{មុខវិជ្ជា}
+\def\label@teacher{រៀបរៀងដោយ}
+\def\label@point{ពិន្ទុ}
+\school{តេស្តសមត្ថភាព}
+\teacher{ស៊ុំ សំអុន}
+\subject{គណិតវិទ្យា}
+\usepackage{geometry}
+\geometry{top=.8in,bottom=.8in,left=.4in,right=.4in}
+\usepackage{polyglossia}
+\newfontfamily{\khmerfont}[BoldFont={Khmer OS Bokor}]{Khmer OS Content}
+\setmainlanguage[numerals=khmer]{khmer}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\fancyhf{}
+\fancyhead[L]{\color{blue}\bfseries\label@school\space\@school}
+\fancyhead[R]{\color{blue}\bfseries\label@subject\space\@subject}
+\fancyfoot[C]{\color{blue}\bfseries\label@teacher\space\@teacher}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+\pagestyle{fancy}
+\usepackage[inline]{enumitem}
+\setlist[itemize]{leftmargin=*,itemsep=\z@,labelsep=2\p@}
+\setlist[itemize,1]{label=\protect\color{magenta}\protect\ensuremath{\protect\bullet},itemsep=\z@}
+\setlist[itemize,2]{label=\protect\color{magenta}\protect\ensuremath{\protect\circ},itemsep=\z@}
+\setlist[itemize,3]{label=\protect\color{magenta}\protect\ensuremath{\protect\star},itemsep=\z@}
+\setlist[enumerate]{leftmargin=*,itemsep=\z@,labelsep=2\p@}
+\setlist[enumerate,1]{label=\protect\color{magenta}\Roman*.)}
+\setlist[enumerate,2]{itemsep=\p@,label=\protect\color{magenta}\bfseries\arabic*.)}
+\setlist[enumerate,3]{itemsep=\p@,label=\protect\color{magenta}\bfseries\alph*.)}
+\newenvironment{problem}{\begin{enumerate}}{\end{enumerate}}
+\def\pro{\@ifnextchar[{\@opro}{\@pro}}
+\def\@opro[#1]{\item{\color{blue}\bfseries(~#1~\label@point~)}}
+\def\@pro{\item}
+\everymath{\protect\displaystyle\protect\color{blue}}
+% ដាក់ពណ៍របស់ Page
+\pagecolor{cyan!2!white}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tikz}
+\makeatother
+\begin{document}
+	
+\end{document}
